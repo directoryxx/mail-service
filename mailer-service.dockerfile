@@ -26,6 +26,6 @@ COPY --from=builder /app/internal /internal
 
 # COPY . /app
 
-COPY ./.env /.env
+# COPY ./.env /.env
 
 CMD [ "/app/mailApp" ]
